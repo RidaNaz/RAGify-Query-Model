@@ -66,8 +66,8 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Display the dynamic title
-st.markdown("<h1 class='custom-title'>Dynamic RAG Query Model</h1>", unsafe_allow_html=True)
+# Display the title
+st.markdown("<h1 class='custom-title'>RAGify Query Model</h1>", unsafe_allow_html=True)
 
 # Sidebar for file upload and model selection
 with st.sidebar:
