@@ -10,9 +10,14 @@ uv venv
 .\.venv\Scripts\activate
 ```
 
+- Initialize the UV project
+```bash
+uv init
+```
+
 - install the dependencies in the `uv venv`
 ```bash
-uv pip install -r requirements.txt
+uv add -r requirements.txt
 ```
 
 - Run the Streamlit App
